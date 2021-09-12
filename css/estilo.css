@@ -32,3 +32,147 @@ h1{
     color: darkseagreen;
     border-color: black ;
 }
+.titulo_icono_caja{
+    display: flex;/*coloque las cajas dentro de la misma linea*/
+}
+
+.caja-titulo{
+    width: 70%;
+    height: 60px;
+    background-color:darkred;
+
+}
+.caja-icono{
+    width: 30%;
+    height: 60px;
+    background-color:darkblue;
+    text-align: right;
+    padding: 10px 0 0 0 ;
+
+}
+.diseñoico1{
+    font-size: 40px;
+    color:yellow;
+}
+
+.boton__caja{
+    display: flex;
+    justify-content: right;
+}
+.diseño_menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center
+}
+.diseño_menu li a{
+    display: block;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding: 20px 0px 0px 0px;
+}
+.formulario_P{
+    width: 50%;
+    margin: 0 auto;
+}
+.label{
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+}
+.input{
+    display: inline-block;
+    width: 60%;
+}
+.boton_for{
+    width: 30%;
+    padding: 5px;
+    color: maroon;
+    height: 40px;
+    background-color: mediumorchid;
+    border-color: orangered;
+    border-radius: 10px;
+}
+.tabla{
+    width: 60%;
+    height: 40px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color:deeppink; 
+}
+@media(max-width: 640px){
+    .diseño_menu ul{
+        display: block;
+    }
+    .diseño_menu li a{
+        display: block;
+        background-color: white;
+        color: black;
+        width: 90%;
+        height: 40px;
+        text-decoration: solid;
+        text-align: center;
+        margin: 10px;
+        border-color: dimgrey;
+    }
+    .formulario_P{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .label{
+    
+        width: 40%;
+        margin: 5px;
+    }
+    .input{
+       
+        width: 50%;
+    }
+    .boton_for{
+        width: 30%;
+        padding: 1px;
+        height: 40px;
+        
+        border-radius: 10px;
+    }
+    .tabla{
+        width: 90%;
+       
+    }
+    th,td{
+        border: 1px solid black;
+    }
+    th{
+        background-color:deeppink; 
+    }
+    .cajasgeneral{
+        width: 95%;
+        display: block;
+    }
+}
+@media(min-width:641px) and (max-width: 1280px){
+  
+    .formulario_P{
+        width: 99%;
+        margin: 0px auto;
+    }
+    .label{
+    
+        width: 25%;
+        margin: 5px;
+    }
+    .input{
+       
+        width: 60%;
+    }
+   
+}

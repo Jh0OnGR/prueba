@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>link</title>
-    <link rel="stylesheet" href="css/estilo.css"
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <script src="https://kit.fontawesome.com/a6a123363d.js" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
@@ -16,7 +18,7 @@
             <center><img src="imagenes/Captura de pantalla (1).png" alt="icono" width="200" height="200"/></center>
         </a>
         <!-- logo atravez de url-->
-        <nav><!--es para crear menu-->
+        <nav class="diseño_menu"> <!--es para crear menu-->
             <ul><!--crear un menu en forma de lista-->
                 <!--li lista o   item a href para enlaces-->
                 <li><a href="">Enlace1</a></li>
@@ -28,43 +30,46 @@
     </header>
     <main>
         <!--formulario-->
-        <form> 
+        <form class="formulario_P"> 
             <!-- icono atravez de url-->
             <a href="https://www.youtube.com/watch?v=SGRPgaga3vM"> <h1> music</h1> </a>
             <!--formulario-->
             <center><h1>JHON G</h1></center>
             <br/>
-            <label>Nombre</label>
+            <label class="label" for="nombre">Nombre</label>
             <!--caja de texto-->
-            <input type="text" name ="txtNombre"  maxlength="10" minlength="4" size="50" required></input><br/>
-            <br/>
-            <label>email</label>
-            <!--caja de texto-->
-            <input type="email" name="txtcorreo" size="40"></input> <br/><br/>
-            <label>Numero</label>
-            <!--caja de texto-->
-            <input type="number" name="txtnumero" maxlength="10" minlength="4" size="12" value="70" placeholder="numero"></input>
-           <br/> <br/>
-           <input  name="sololectura"  readonly placeholder="sololectura"></input><br/><br/>
+            <input class="input" type="text" id="nombre" name ="txtNombre"  maxlength="10" minlength="4" size="50" required placeholder="Nombre Completo"></input>
             
-            <label>contraseña</label>
-            <input type="password" name="txtcontraseña"></input><br/><br/>
+            <label class="label">email</label>
+            <!--caja de texto-->
+            <input class="input" type="email" name="txtcorreo" size="40"></input> 
+            <label class="label">Numero</label>
+            <!--caja de texto-->
+            <input class="input" type="number" name="txtnumero" max="10" min="4" size="12" value="70" placeholder="numero"></input>
+            <label class="label" for="lectura">lectura</label>
+           <input class="input" name="sololectura"  readonly placeholder="sololectura"></input>
             
-            <label>Seleccionar vehiculo</label>
-            <select name="Selvehiculo">
+            <label class="label">contraseña</label>
+            <input class="input" type="password" name="txtcontraseña"></input>
+            
+            <label class="label">Seleccionar vehiculo</label>
+            <select  class="input" name="Selvehiculo">
                 <option value="1">mercedes</option>
                 <option value="2">Audi</option>
                 <option value="3">chevrolet</option>
 
-            </select> <br/><br/>
-            <textarea name="submit" rows="6" cols="50" ></textarea><br/><br/>
+            </select> 
+            <label  class="label" for="comentario">comentario</label>
+            <textarea   class="input" name="submit" rows="6" cols="50" ></textarea>
             <!--Boton-->
-            <input type="submit" value="guardar" />&nbsp;&nbsp;<button>Enviar</button>
+            <center>
+            <input  class="boton_for" type="submit" value="guardar" />&nbsp;&nbsp;
+            <button class="boton_for">Enviar</button></center>
             <p>mi primer parrafo</p>
             <!--1 formulario-->
         </form>
         <center><h1>Ejemplo de tablas-Clases</h1>
-            <table border="1">
+            <table class="tabla" border="1">
                 <tr>
                     <th>equipo</th>
                     <th>cuidad</th>
@@ -89,11 +94,21 @@
         <p>pie de pagina (puede ir las redes sociales</p>
         
         <div class="cajasgeneral">
+            <div class="titulo_icono_caja">
+                <div class="caja-titulo">
+                </div>
+                <div class="caja-icono">
+                    <i class="diseñoico1 fab fa-canadian-maple-leaf"></i>
+                </div>
+            </div>
             <h1 class="titulos_cajas"> PRIMERO</h1>
                 <p>parrafo 1</p>
                 <h6>parrafo 2</h6>
                 <p>parrafo 3</p>
-                <input class="boton" type="submit" value="Guardar">
+                <div class="boton__caja">
+                    <input class="boton" type="submit" value="Guardar">
+                </div>
+                
         </div>
         <div class="cajasgeneral">
             <h1 class="titulos_cajas"> SEGUNDO</h1>
