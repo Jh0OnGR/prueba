@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <center><h1> CREA TUS RESERVAS</h1></center>
+    </header>
+    <main>
+        <form>
+            <label for="cant_dias">Cantidad de días</label>
+            <input type="number" name="txtcant_dias" min="1"></input><br/><br/>
+            <label for="cant_habit">Cantidad de habitaciones</label>
+            <input type="number" name="textcant_habit" min="1" required></input> <br/>
+            <label for="Desayuno">Desayuno</label>
+            <select name="Desayuno">
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select><br/><br/>
+            <label for="Almuerzo">Almuerzo</label>
+            <span class="c-hds-brand-1 fs-base fw-normal va-t">*</span>
+            <select name="Almuerzo">
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select><br/><br/>
+            <label for="Cena">Cena</label>
+            <select name="Cena">
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select><br/><br/>
+            <label for="Niños" >Cantidad de niños (De 0 a 17 años)</label>
+            <select name="Niños">
+                <option value="1">Sin niños</option>
+                <option value="2">1 niño</option>
+                <option value="3">2 niños</option>
+                <option value="4">3 niños</option>
+                <option value="5">4 niños</option>
+                <option value="6">5 niños</option>
+                <option value="3">6 niños</option>
+                <option value="4">7 niños</option>
+                <option value="5">8 niños</option>
+                <option value="6">9 niños</option>
+                <option value="6">10 niños</option>
+            </select><br/><br/>
+            <label for="cant_adultos">Cantidad de adultos</label>
+            <input  type="number" name="txtcant_adultos" required></input> <br/>
+            <label for="Pais" >País</label>
+            <select name="Pais">
+                <option value="1">Colombia</option>
+                <option value="2">Argentina</option>
+            </select><br/><br/>
+            <label for="Ciudad">cuidad</label>
+            <select name="Ciudad">
+                <option value="1">Barranquilla</option>
+                <option value="2">Cartagena</option>
+            </select><br/><br/>
+            <label for="Sucursal">Sucursal</label>
+            <select name="Sucursal">
+                <option value="1">Sucursal 1</option>
+                <option value="2">Sucursal 2</option>
+            </select><br/><br/>
+            <label for="Ingreso">Fecha Ingreso</label>
+            <input type="date" name="txtIngreso" required><br><br/>
+            <label for="Salida">Fecha Salida</label>
+            <input type="date" name="txtSalida" required>
+            <br/><br/>
+            <label for="tip_Habitaciones">Tipo de habitacion</label>
+            <select name="tip_Habitacion">    
+                <option value="1">Habitación estándar</option>
+                <option value="2">Habitación superior</option>
+                <option value="3">Suite junior</option>
+                <option value="4">Suite Deluxe</option>
+            </select><br/><br/>
+            <Label for="Detalles_habit">Detalles adicionales</Label>
+
+            <textarea name="submit" rows="8" cols="50"></textarea><br/><br/><br/><br/>
+            <button>Reservar</button>&nbsp; <button>Cancelar</button>
+        </form>
+    </main>
+    
+</body>
+</html>

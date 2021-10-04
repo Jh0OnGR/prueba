@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Habitaciones</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">      
+            <div class="caja-ico">
+            </div> 
+            <div class="caja-ico">   
+            </div> 
+        </div>
+        <img class="caja-ico" src="prueba/imagenes/logo2.png" alt="logo"></img>
+        <img class="caja-ico" src="prueba/imagenes/logo2.png" alt="logo"></img>
+        <center><h1> DETALLES DE LAS HABITACIONES</h1></center>
+    </header>
+    <main>
+        <form>
+           <center> <label>Sucursal</label>
+            <select name="id_Sucursal">
+                <option value="1">----Seleccionar----</option>
+                <option value="2">Sucursal 1</option>
+                <option value="3">Sucursal 2</option>
+            </select><br/><br/>
+            <label>Tipo de habitacion</label>
+            <select name="nom_Habitacion">
+                <option value="1">----Seleccionar----</option>
+                <option value="2">Sencilla</option>
+                <option value="3">Doble</option>
+                <option value="4">Familiar </option>
+                <option value="5">Suite</option>
+            </select><br/><br/>
+            <label>Tipo de cama</label>
+            <select name="nom_cama">
+                <option value="1">----Seleccionar----</option>
+                <option value="2">cama doble</option>
+                <option value="3">camas individuales</option>
+                <option value="4">cama King</option>
+            </select><br/><br/>
+            <label>Tv</label>
+            <select name="tv">
+                <option value="1">----Seleccionar----</option>
+                <option value="2">SI</option>
+                <option value="3">NO</option>
+            </select><br/><br/>
+            <label>Aire_acondicionado</label>
+            <select name="aire_acondicionado">
+                <option value="1">----Seleccionar----</option>
+                <option value="2">SI</option>
+                <option value="3">NO</option>
+            </select><br/><br/>
+            <label>Cantidad maxima</label>
+            <input type="number" name="deta_habit" min="1" required ></input><br/><br/>
+            <label>Estado</label>
+            <select name="estado_Habi" aria-required="false">
+                <option >----Seleccionar----</option>
+                <option value="2">Disponible</option>
+                <option value="3">Reservado</option>
+            </select><br/><br/>
+            
+            <button>Guardar</button>&nbsp;<button>Cancelar</button>
+        </center>
+        </form>
+    </main>
+    
+</body>
+</html>
