@@ -19,13 +19,23 @@ h1{
 .cajasgeneral{
     width: 29%;
     height: 29%;
-    background-color: darkkhaki;
+    background-color:brown;
     display: inline-block;
     border-style: solid;
     margin: 1%  1%  1%  1% ;
     padding:  0.5% 0.5% 0.5% 0.5%;
     text-align: left;
 
+}
+.encabezado{
+    width: 29%;
+    height: 29%;
+    background-color:brown;
+    display: inline-block;
+    border-style: solid;
+    margin: 1%  1%  1%  1% ;
+    padding:  0.5% 0.5% 0.5% 0.5%;
+    text-align: left;
 }
 .boton{
     background-color: darkred;
@@ -45,10 +55,19 @@ h1{
 .caja-icono{
     width: 30%;
     height: 60px;
-    background-color:darkblue;
+    background-color:rgb(50, 50, 233);
     text-align: right;
     padding: 10px 0 0 0 ;
 
+}
+.caja-ico{
+    width: 10%;
+    height: 95%;
+    padding: 18px 16px 14px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
 }
 .diseñoico1{
     font-size: 40px;
