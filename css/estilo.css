@@ -28,7 +28,7 @@ h1{
 
 }
 .encabezado{
-    width: 29%;
+    width: 90%;
     height: 29%;
     background-color:brown;
     display: inline-block;
@@ -36,7 +36,9 @@ h1{
     margin: 1%  1%  1%  1% ;
     padding:  0.5% 0.5% 0.5% 0.5%;
     text-align: left;
+    display: flex;
 }
+
 .boton{
     background-color: darkred;
     color: darkseagreen;
@@ -50,7 +52,6 @@ h1{
     width: 70%;
     height: 60px;
     background-color:darkred;
-
 }
 .caja-icono{
     width: 30%;
@@ -61,12 +62,26 @@ h1{
 
 }
 .caja-ico{
-    width: 10%;
-    height: 95%;
-    padding: 18px 16px 14px;
+    width: 20%;
+    height: 60px;
+    padding: 10px 0 0 0 ;
+
     position: absolute;
     left: 0;
     right: 0;
+    background-color: blue;
+    
+}
+.caja-ic{
+    width: 20%;
+    height: 60px;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color:chartreuse;
+    padding: 10px 0 0 0 ;
+
     
 }
 .diseñoico1{
